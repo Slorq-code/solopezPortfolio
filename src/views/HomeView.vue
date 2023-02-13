@@ -28,6 +28,7 @@
                   <span> Nombre completo</span>
                   <input type="text">
                 </div>
+                
                 <div class="footerHomeBoxSendInput" >
                   <span> Producto de interes</span>
                   <input type="text">
