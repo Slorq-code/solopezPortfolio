@@ -11,13 +11,14 @@
     <div class="panelOption">
       <div class="panelOptionContent">
           <div class="DiseñoPublicidad">  
-              <img src="@/assets/imagenes/DiseñoPublicidad.png" alt="DiseñoPublicidad" class="diseñoPublicidadImg">
+              <img src="@/assets/imagenes/DisenoPublicidad.png" alt="DiseñoPublicidad" class="diseñoPublicidadImg">
               <img  class="DiseñoPublicidadImage" src="../assets/imagenes/PublicidadCuadro.png" alt="box">
           </div>
           <div class="RedesSociales">  
               <img src="../assets/imagenes/RedesCociales.png" alt="RedesCociales"  class="redesCocialesImg">
               <img class="RedesSocialesImage" src="../assets/imagenes/RedesCuadro.png" alt="box">
-          </div>
+          </div> 
+          
       </div>
       <div class="footerHome">
         <div class="footerHomeBox1" >
