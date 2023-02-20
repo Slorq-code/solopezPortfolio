@@ -129,8 +129,6 @@ export default {
   transform: scale(1.2);
   box-shadow: 1px solid black;
 } 
-
-
 .footerHome {
   position: relative;
   display: flex;
@@ -175,4 +173,28 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 999px) {
+  .RedesSociales,
+  .DiseñoPublicidad {
+    width: 353px;
+    height: 260px;
+    position: relative;
+  }
+  
+
+
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .RedesSociales,
+  .DiseñoPublicidad {
+    width: 442px;
+    height: 325px;
+    position: relative;
+  }
+}
+
+
 </style>
