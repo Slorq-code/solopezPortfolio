@@ -20,30 +20,21 @@
           </div> 
           
       </div>
+
+
       <div class="footerHome">
-        <div class="footerHomeBox1" >
-            <div class="footerHomeBox1Title">
-              <span>¡Contactame!</span>
-              <div class="footerHomeBoxSend" >
-                <div class="footerHomeBoxSendInput" >
-                  <span> Nombre completo</span>
-                  <input type="text">
-                </div>
-                <div class="footerHomeBoxSendInput" >
-                  <span> Producto de interes</span>
-                  <input type="text">
-                </div>
-                <button>enviar</button>
-              </div>
-            </div>
-            <div class="footerHomeBox1Options">
+        <img 
+        class="footerHomeImg"
+        src="../assets/imagenes/FooterRojo.jpg" 
+        alt="footer"
+        >
 
-            </div>
-        </div>
-        <div class="footerHomeBox2" >
-
-        </div>
       </div>
+
+
+
+
+
     </div>
   </div>
 </template>
@@ -129,50 +120,25 @@ export default {
   transform: scale(1.2);
   box-shadow: 1px solid black;
 } 
+
 .footerHome {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url("../assets/imagenes/FooterRojo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  height: 72%;
+  background-color: red;
+  height: calc( 173vh - 80% );
 }
-.footerHomeImge {
-  position: absolute;
+
+.footerHomeImg {
   width: 100%;
   height: 100%;
-  z-index: 1;
+  box-shadow: 0px 122px 0px 69px rgba(29,29,28,1);
 }
-.footerHomeBox1,
-.footerHomeBox2 {
-  width: 100%;
-  height: 80px;
-  z-index: 9;
-}
-.footerHomeBox1{
-  height: 76%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footerHomeBox2{
-  height: 24%;
-}
-.footerHomeBoxSend {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footerHomeBoxSendInput{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 999px) {
   .RedesSociales,
@@ -181,10 +147,6 @@ export default {
     height: 260px;
     position: relative;
   }
-  
-
-
-
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
