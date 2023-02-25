@@ -9,7 +9,26 @@
         </div>
         <section>
             <div class="grilla" >
-                
+                <div class="grillaRow">
+                    <div class="grillaCard">
+                        <img 
+                            src="@/assets/imagenes/desing/Flyer.png" 
+                            alt=""
+                        >
+                    </div>
+                    <div class="grillaCard">
+                        <img 
+                            src="@/assets/imagenes/desing/LogoCreate.png" 
+                            alt=""
+                        >
+                    </div>
+                    <div class="grillaCard">
+                        <img 
+                            src="@/assets/imagenes/desing/tarjetas.png" 
+                            alt=""
+                        >
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -61,5 +80,15 @@ export default {
     margin: 0 10% 0 0;
     text-shadow: 1px 1px 2px rgb(255 255 255);
 }
-
+.grilla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grillaRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 </style>
