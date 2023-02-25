@@ -1,7 +1,12 @@
 <template>
-    <div class="InitialTestPrubli" >
+    <div class="designPublicityContainer" >
 
-        <h1>hola desde diseño y publicidad</h1>
+        <div class="uperTitle" >
+            <img src="" alt="">
+            <span>
+                Ofrecemos servicios de diseño pu
+            </span>
+        </div>
 
     </div>
 </template>
@@ -14,13 +19,13 @@ export default {
 
 <style>
 
-.InitialTestPrubli {
+.designPublicityContainer {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: red;
 }
 
 </style>
