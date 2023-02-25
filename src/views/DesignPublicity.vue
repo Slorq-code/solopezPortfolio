@@ -7,7 +7,7 @@
                 Ofrecemos servicios de diseño publiciitario para piezas digitales y físicas, incluyendo volantes, pendones y tarjetas impresas con un ennfoque en la calidad y el impacto visual.
             </span>
         </div>
-        <section>
+        <section class="section" >
             <div class="grilla" >
                 <div class="grillaRow">
                     <div class="grillaCard">
@@ -104,7 +104,10 @@ export default {
     text-align: center;
     font-size: 28px;
     margin: 0 10% 0 0;
-    text-shadow: 1px 1px 2px rgb(255 255 255);
+    text-shadow: 2px 14px 15px rgb(255 255 255);
+}
+.section {
+    width: 100%;
 }
 .grilla {
     display: flex;
