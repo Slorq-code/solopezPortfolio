@@ -12,18 +12,44 @@
                 <div class="grillaRow">
                     <div class="grillaCard">
                         <img 
+                            class="grillaCardImg"
                             src="@/assets/imagenes/desing/Flyer.png" 
                             alt=""
                         >
                     </div>
                     <div class="grillaCard">
                         <img 
+                            class="grillaCardImg"
                             src="@/assets/imagenes/desing/LogoCreate.png" 
                             alt=""
                         >
                     </div>
                     <div class="grillaCard">
                         <img 
+                            class="grillaCardImg"
+                            src="@/assets/imagenes/desing/tarjetas.png" 
+                            alt=""
+                        >
+                    </div>
+                </div>
+                <div class="grillaRow">
+                    <div class="grillaCard">
+                        <img 
+                            class="grillaCardImg"
+                            src="@/assets/imagenes/desing/Flyer.png" 
+                            alt=""
+                        >
+                    </div>
+                    <div class="grillaCard">
+                        <img 
+                            class="grillaCardImg"
+                            src="@/assets/imagenes/desing/LogoCreate.png" 
+                            alt=""
+                        >
+                    </div>
+                    <div class="grillaCard">
+                        <img 
+                            class="grillaCardImg"
                             src="@/assets/imagenes/desing/tarjetas.png" 
                             alt=""
                         >
@@ -90,5 +116,12 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.grillaCard{
+    background-color: red;
+    height: 500px;
+}
+.grillaCardImg {
+    height: 100%;
 }
 </style>
