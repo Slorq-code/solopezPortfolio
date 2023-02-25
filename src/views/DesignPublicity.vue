@@ -30,7 +30,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("@/assets/imagenes/Fondo-de-diseño.jpg");
+    background-image: url("@/assets/imagenes/FondoDeDiseño.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
