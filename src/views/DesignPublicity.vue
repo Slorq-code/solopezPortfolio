@@ -14,22 +14,46 @@
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/Flyer.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAzul.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/LogoCreate.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAmarillo.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/tarjetas.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAzul.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                 </div>
                 <div class="grillaRow">
@@ -37,22 +61,46 @@
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/Flyer.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAzul.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/LogoCreate.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAmarillo.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
                             src="@/assets/imagenes/desing/tarjetas.png" 
-                            alt=""
+                            alt="img"
                         >
+                        <img 
+                            class="grillaCardBottom"
+                            src="@/assets/imagenes/desing/botonAzul.png" 
+                            alt="img"
+                        >
+                        <span class="grillaCardSpan" >
+                            info
+                        </span>
                     </div>
                 </div>
             </div>
@@ -75,7 +123,7 @@ export default {
     height: 200vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-image: url("@/assets/imagenes/FondoDeDiseno.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,6 +156,7 @@ export default {
 }
 .section {
     width: 100%;
+    margin: 10% 0 0 0;
 }
 .grilla {
     display: flex;
@@ -119,12 +168,45 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .grillaCard{
-    background-color: red;
     height: 500px;
+    margin: 4% 1%;
+    width: min-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .grillaCardImg {
     height: 100%;
+}
+.grillaCardBottom {
+    width: 100%;
+    height: auto;
+}
+.grillaCardSpan {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 999px) {
+    .grillaCard {
+    height: 260px;
+    position: relative;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    .grillaCard {
+    height: 325px;
+    position: relative;
+    }
 }
 </style>
