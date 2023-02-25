@@ -2,7 +2,7 @@
     <div class="designPublicityContainer" >
 
         <div class="uperTitle" >
-            <img src="" alt="">
+            <img src="../assets/imagenes/DisenoPublicidad.png" alt="logo">
             <span>
                 Ofrecemos servicios de diseño publiciitario para piezas digitales y físicas, incluyendo volantes, pendones y tarjetas impresas con un ennfoque en la calidad y el impacto visual.
             </span>
@@ -26,13 +26,18 @@ export default {
 
 .designPublicityContainer {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../assets/imagenes/Fondo-de-diseño.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.uperTitle {
+    display: flex;
+    
 }
 
 </style>
