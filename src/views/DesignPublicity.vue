@@ -2,8 +2,8 @@
     <div class="designPublicityContainer" >
 
         <div class="uperTitle" >
-            <img src="@/assets/imagenes/DisenoPublicidad.png" alt="logo">
-            <span>
+            <img  class="uperTitleLogo" src="@/assets/imagenes/DisenoPublicidad.png" alt="logo">
+            <span class="uperTitleSpan" >
                 Ofrecemos servicios de diseño publiciitario para piezas digitales y físicas, incluyendo volantes, pendones y tarjetas impresas con un ennfoque en la calidad y el impacto visual.
             </span>
         </div>
@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 .designPublicityContainer {
     width: 100%;
@@ -38,11 +39,27 @@ export default {
 
 .uperTitle {
     display: flex;
+    justify-content: space-between;
     position: absolute;
     top: 0;
-    height: 10%;
+    height: 6%;
     width: 100%;
-    background-color: red;
+    margin: 2% 0 0 0;
+}
+
+.uperTitleLogo {
+    width: auto;
+    height: 100%;
+    margin: 0 0% 0 5%;
+}
+.uperTitleSpan {
+    font-family: 'Golos Text', sans-serif;
+    width: 56%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin: 0 10% 0 0;
+    text-shadow: 1px 1px 2px rgb(255 255 255);
 }
 
 </style>
