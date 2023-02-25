@@ -103,6 +103,20 @@
                         </span>
                     </div>
                 </div>
+                <div class="grillaRow">
+                    <div class="grillaRowCuadro" >
+                        <img 
+                        class="grillaRowCuadroImg"
+                        src="@/assets/imagenes/desing/cuadros.png" 
+                        alt="img"
+                        >
+                        <img 
+                            class="grillaCardBottom1"
+                            src="@/assets/imagenes/desing/botonAzul.png" 
+                            alt="img"
+                        >
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -120,7 +134,7 @@ export default {
 
 .designPublicityContainer {
     width: 100%;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -188,6 +202,7 @@ export default {
     width: 100%;
     height: auto;
 }
+
 .grillaCardSpan {
     position: absolute;
     bottom: -10px;
@@ -200,6 +215,25 @@ export default {
     transform: scale(1.25);
     transition: .1s ease-out;
 }
+.grillaRowCuadro {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grillaCardBottom1 {
+    position: absolute;
+    width: 322px;
+    right: 14%;
+    bottom: 11%;
+}
+.grillaRowCuadroImg {
+    width: calc(3*(320px + 26px));
+}
+
+/* grillaRowCuadro
+grillaRowCuadroImg */
 
 @media only screen and (max-width: 999px) {
     .grillaCard {
@@ -215,6 +249,13 @@ export default {
     }
     .uperTitleSpan {
         font-size: 18px;
+    }
+    .grillaRowCuadroImg {
+    width: calc(2*(315px + 26px));
+    }
+    .grillaCardBottom1 {
+    position: absolute;
+    width: 209px;
     }
 }
 </style>
