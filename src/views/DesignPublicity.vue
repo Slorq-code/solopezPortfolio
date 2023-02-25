@@ -22,7 +22,7 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            $35.000
                         </span>
                     </div>
                     <div class="grillaCard">
@@ -37,7 +37,7 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            $85.000
                         </span>
                     </div>
                     <div class="grillaCard">
@@ -52,7 +52,7 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            VER MÁS
                         </span>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
-                            src="@/assets/imagenes/desing/Flyer.png" 
+                            src="@/assets/imagenes/desing/volantes.png" 
                             alt="img"
                         >
                         <img 
@@ -69,13 +69,13 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            VER MÁS
                         </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
-                            src="@/assets/imagenes/desing/LogoCreate.png" 
+                            src="@/assets/imagenes/desing/Carnets.png" 
                             alt="img"
                         >
                         <img 
@@ -84,13 +84,13 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            $9.000 C/U
                         </span>
                     </div>
                     <div class="grillaCard">
                         <img 
                             class="grillaCardImg"
-                            src="@/assets/imagenes/desing/tarjetas.png" 
+                            src="@/assets/imagenes/desing/Afiches.png" 
                             alt="img"
                         >
                         <img 
@@ -99,7 +99,7 @@
                             alt="img"
                         >
                         <span class="grillaCardSpan" >
-                            info
+                            $15.000
                         </span>
                     </div>
                 </div>
@@ -190,10 +190,15 @@ export default {
 }
 .grillaCardSpan {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     font-family: 'Golos Text', sans-serif;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
+.grillaCardSpan:hover {
+    transform: scale(1.25);
+    transition: .1s ease-out;
 }
 
 @media only screen and (max-width: 999px) {
@@ -207,6 +212,9 @@ export default {
     .grillaCard {
     height: 325px;
     position: relative;
+    }
+    .uperTitleSpan {
+        font-size: 18px;
     }
 }
 </style>
