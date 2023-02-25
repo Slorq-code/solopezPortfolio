@@ -4,9 +4,14 @@
         <div class="uperTitle" >
             <img src="" alt="">
             <span>
-                Ofrecemos servicios de diseño pu
+                Ofrecemos servicios de diseño publiciitario para piezas digitales y físicas, incluyendo volantes, pendones y tarjetas impresas con un ennfoque en la calidad y el impacto visual.
             </span>
         </div>
+        <section>
+            <div class="grilla" >
+                
+            </div>
+        </section>
 
     </div>
 </template>
@@ -25,7 +30,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-image: url("../assets/imagenes/Fondo-de-diseño.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 </style>
