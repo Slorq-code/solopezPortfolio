@@ -115,6 +115,9 @@
                             src="@/assets/imagenes/desing/botonAzul.png" 
                             alt="img"
                         >
+                        <span>
+                            V
+                        </span>
                     </div>
                 </div>
             </div>
@@ -134,7 +137,7 @@ export default {
 
 .designPublicityContainer {
     width: 100%;
-    height: 250vh;
+    height: 176vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -243,6 +246,9 @@ grillaRowCuadroImg */
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    .designPublicityContainer {
+        height: 225vh;
+    }
     .grillaCard {
     height: 325px;
     position: relative;
